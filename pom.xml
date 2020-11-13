@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <artifactId>bom-base</artifactId>
+        <groupId>dev.xethh.libs.toolkits</groupId>
+        <version>1.0.1</version>
+        <relativePath/>
+    </parent>
+
+    <groupId>dev.xethh.archetype</groupId>
+    <artifactId>quickstart</artifactId>
+
+    <name>quickstart</name>
+    <url>https://github.com/xh-dev-pom-mgmt/archetype-quickstart</url>
+    <description>Maven archetype for generating java project with basic libraries included in bom-common, the output is generally an executable jar.</description>
+    <scm>
+        <connection>scm:git:git://bitbucket.org/xethhme/archetype-quickstart.git</connection>
+        <developerConnection>scm:git:ssh://bitbucket.org/xethhme/archetype-quickstart.git</developerConnection>
+        <url>https://github.com/xh-dev-pom-mgmt/archetype-quickstart</url>
+    </scm>
+
+
+</project>
